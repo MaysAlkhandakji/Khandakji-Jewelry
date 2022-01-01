@@ -1,0 +1,123 @@
+* {
+	margin: 0px;
+	padding: 4px;
+}
+
+#search_box{
+
+    position: relative;
+    margin-top: 10px;
+    float: left;
+	border-color:#0f1922 ;
+	width: 70%;
+	height: 30px;
+	padding-left: 10px;
+	border: double;
+}
+
+#search{
+	padding: 20px;
+	width: 35px;
+	height:35px;
+}
+
+#search:hover{
+	background-color: whitesmoke;
+}
+
+#profile{
+ padding: 20px;
+ width: 35px;
+ height:35px;
+}
+
+#profile:hover{
+	background-color: whitesmoke ;
+}
+
+#logo{
+	width: 15%;
+    height: 100px;
+    float: right;
+}
+
+nav{
+	background-color:#0f1922;
+	padding: 30px 0;
+	border-radius: 10px 100px;
+	margin: 30px 0;
+	position: sticky;
+	top: 0;
+	text-align: center;
+}
+.nav {
+	color: white;
+	padding: 15px 30px;
+	text-decoration: none;
+	font-size: 20px;
+}
+.nav:hover{
+	background-color: #666666;
+	border-radius: 10px 100px;
+	transition: all 0.5s;
+}
+.nav {
+	color: white;
+	padding: 15px 30px;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.nav:hover{
+	background-color: #666666;
+	border-radius: 10px 100px;
+	transition: all 0.5s;
+}
+
+.card{
+	text-align: center;
+	padding: 20px;
+	float: left;
+}
+
+.card-img-top{
+	height: 300px;
+	width: 300px;
+}
+
+
+#grids_footer{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width:100% ;
+    height: 60.0vh;
+    grid-template-areas: 
+    "box1 box2 box2 box3"
+    "box4 box4 box4 box4" ;
+}
+
+#About_us{
+	grid-area: box1;
+	background-color: #E2C2B9;
+	border-color: #E2C2B9;
+}
+#Contact_us{
+	grid-area: box2;
+	background-color: #E2C2B9;
+	border-color: #E2C2B9;
+}
+
+#Follow_us{
+grid-area: box3;
+background-color: #E2C2B9;
+border-color: #E2C2B9;
+}
+
+#End{
+	height: 5vh;
+	grid-area: box4;
+	background-color: #0f1922;
+	border-color: #0f1922;
+	color: white;
+}
